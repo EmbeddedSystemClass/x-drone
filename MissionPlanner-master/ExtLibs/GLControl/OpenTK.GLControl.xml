@@ -90,13 +90,6 @@
             All OpenGL commands issued are hereafter interpreted by this GLControl.
             </summary>
         </member>
-        <member name="M:OpenTK.GLControl.GrabScreenshot">
-            <summary>Grabs a screenshot of the frontbuffer contents.</summary>
-            <returns>A System.Drawing.Bitmap, containing the contents of the frontbuffer.</returns>
-            <exception cref="T:OpenTK.Graphics.GraphicsContextException">
-            Occurs when no OpenTK.Graphics.GraphicsContext is current in the calling thread.
-            </exception>
-        </member>
         <member name="P:OpenTK.GLControl.IsIdle">
             <summary>
             Gets a value indicating whether the current thread contains pending system messages.
@@ -129,6 +122,13 @@
             <summary>
             Gets the <see cref="T:OpenTK.Platform.IWindowInfo"/> for this instance.
             </summary>
+        </member>
+        <member name="M:OpenTK.GLControl.GrabScreenshot">
+            <summary>Grabs a screenshot of the frontbuffer contents.</summary>
+            <returns>A System.Drawing.Bitmap, containing the contents of the frontbuffer.</returns>
+            <exception cref="T:OpenTK.Graphics.GraphicsContextException">
+            Occurs when no OpenTK.Graphics.GraphicsContext is current in the calling thread.
+            </exception>
         </member>
     </members>
 </doc>
